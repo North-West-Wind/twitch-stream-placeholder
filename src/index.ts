@@ -80,11 +80,12 @@ client.on("message", (channel, tags, message, self) => {
 	switch (message.toLowerCase()) {
 		case "!please-hold": {
 			start();
-			client.say(channel, "");
+			client.say(channel, "Gotcha!");
 			break;
 		}
 		case "!unhold": {
 			stop();
+			client.say(channel, "Fixed!");
 			break;
 		}
 	}
