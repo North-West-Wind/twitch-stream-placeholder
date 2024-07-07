@@ -1,0 +1,26 @@
+{
+  "name": "twitch-stream-placeholder",
+  "version": "1.0.0",
+  "description": "On-demand Twitch stream placeholder.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ts-node src/index.ts"
+  },
+  "author": "NorthWestWind",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@types/command-exists": "^1.2.3",
+    "@types/express": "^4.17.21",
+    "@types/node-fetch": "^2.6.11",
+    "@types/tmi.js": "^1.8.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "command-exists": "^1.2.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0",
+    "tmi.js": "^1.8.5"
+  }
+}
